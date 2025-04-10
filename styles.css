@@ -375,3 +375,15 @@ footer {
         color: white;
       }
 }
+
+
+#validate{
+  display: none;
+  text-align: center;
+  color: red;
+  margin-top: 10px;
+}
+
+#validate.show{
+  display: block
+}

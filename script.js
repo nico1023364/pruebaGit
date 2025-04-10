@@ -16,3 +16,15 @@ botonModoOscuro.addEventListener("click", () => {
 menuToggle.addEventListener("click", () => {
     menu.classList.toggle("active");
 });
+
+
+
+/*FORMULARIO*/
+
+const text = document.getElementById("validate");
+const form = document.querySelector(".form form");
+
+form.addEventListener("submit", (e) => {
+    e.preventDefault(); 
+    text.classList.add("show"); 
+});
